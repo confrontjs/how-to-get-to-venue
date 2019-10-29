@@ -37,7 +37,7 @@ function loadMap(id) {
 
 function load1(id) {
     const { directions } = loadMap(id);
-    directions.setOrigin(`${spots.centralRailStation}`);
+    directions.setOrigin(`${spots.instituteOfAviation}`);
     directions.setDestination(`${spots.instituteOfAviation}`);
 }
 
@@ -49,7 +49,7 @@ function load2(id) {
 
 function load3(id) {
     const { directions } = loadMap(id);
-    directions.setOrigin(`${spots.centralRailStation}`);
+    directions.setOrigin(`${spots.airport}`);
     directions.setDestination(`${spots.instituteOfAviation}`);
 }
 
