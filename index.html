@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Display driving directions</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js"></script>
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css" type="text/css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="tabset">
+    <input type="radio" name="tabset" id="tab1" data-id="map1" class="tab" checked />
+    <label for="tab1">Where are we?</label>
+    <input type="radio" name="tabset" id="tab2" data-id="map2" class="tab" />
+    <label for="tab2">From Central Railway Station</label>
+    <input type="radio" name="tabset" id="tab3" data-id="map3"  class="tab" />
+    <label for="tab3">From Chopin Airport</label>
+
+    <div class="tab-panels">
+      <section id="venue" class="tab-panel">
+        <div class="map-container">
+          <div id="map1" class="map"></div>
+        </div>
+      </section>
+      <section id="railway" class="tab-panel">
+        <div class="map-container">
+          <div id="map2" class="map"></div>
+        </div>
+      </section>
+      <section id="airport" class="tab-panel">
+        <div class="map-container">
+          <div id="map3" class="map"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
