@@ -48,7 +48,7 @@ map.on("load", function (containerId) {
       directions.setDestination(`${spots.instituteOfAviation}`);
 
     case `map3`:
-      directions.setOrigin(`${spots.centralRailStation}`);
+      directions.setOrigin(`${spots.airport}`);
       directions.setDestination(`${spots.instituteOfAviation}`);
 
   };
