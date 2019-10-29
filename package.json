@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "name": "how-to-get-to-venue",
+    "scripts": {
+        "deploy": "gh-pages -d ."
+    },
+    "devDependencies": {
+        "gh-pages": "^2.1.1"
+    }
+}
