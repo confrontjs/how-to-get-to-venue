@@ -9,8 +9,6 @@ const spots = {
 mapboxgl.accessToken = apiToken;
 
 function loadMap(id) {
-    console.log('loadMap(id)', id);
-
     const map = new mapboxgl.Map({
         container: id,
         style: "mapbox://styles/mapbox/dark-v9",
@@ -56,9 +54,8 @@ function load3(id) {
 }
 
 function selectMap(id) {
-    console.log('selectMap', id);
-
     const strategies = new Map();
+
     strategies.set('map1', load1);
     strategies.set('map2', load2);
     strategies.set('map3', load3);
