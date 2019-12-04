@@ -1,4 +1,4 @@
-const venue = [20.9482648, 52.1783039];
+const venue = [20.9494090, 52.1800090];
 const apiToken = "pk.eyJ1IjoicGFyaXJhbSIsImEiOiJjazFtYnJyZDcwYTUzM25wNjBycXE3a2lnIn0.SCaVmzN7cSKLaZOH52XTKg";
 const spots = {
     centralRailStation: "Warszawa Centralna, Aleje Jerozolimskie 54, Warszawa, Mazowieckie 00-024, Poland",
